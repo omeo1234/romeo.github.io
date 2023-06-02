@@ -1,0 +1,89 @@
+body {
+background-color:pink;
+}
+
+
+
+@media screen and (max-width: 1024px){
+body{
+background-color: red;
+}
+}
+
+
+
+@media screen and (max-width: 768px) {
+body{
+background-color: blue;
+}
+}
+
+
+
+@media screen and (max-width: 580px) {
+body{
+background-color:green;
+}
+}
+
+*
+.{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	background-image: url(images/bac2.JPG);
+	background-size: cover;	
+}
+
+h1{
+	color: red;
+}
+
+.topnav {
+  overflow: hidden;
+  float:right;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: red;
+  text-align: center;
+  padding: 10px 12px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+
+.topnav a:hover {
+  background-color: grey;
+  color: blue;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color:#04AA6D ;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#45a049 ;
